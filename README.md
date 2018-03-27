@@ -35,10 +35,15 @@ From inside your cloned directory, run:
 
 ``` bash
 npm install -g mocha    # globally install the mocha test framework
+```
+
+Next, look inside your `package.json` file to see what libraries your app will need to run. Install these dependencies using the following command: 
+
+``` bash
 npm install             # download package.json dependencies for this project
 ```
 
-Next, run your server:
+Finally, run your server:
 ``` bash
 node server.js
 # or better yet
